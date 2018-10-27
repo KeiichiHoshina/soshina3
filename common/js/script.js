@@ -2,10 +2,10 @@
 $(function(){
 
 	// Page fadein
-	var myPage = $('body');
-	$(document).ready(function(){
-		myPage.delay(100).fadeIn('slow');
-	});
+	// var myPage = $('body');
+	// $(document).ready(function(){
+	// 	myPage.delay(100).fadeIn('slow');
+	// });
 
 	// copyYear
 	var copyYear = new Date();
