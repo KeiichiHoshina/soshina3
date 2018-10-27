@@ -267,6 +267,23 @@ h2 {
 
 #about .profile-txt .profile-name {font-weight: bold;}
 
+#about .profile-txt .profile-link {
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+#about .profile-txt .profile-link li {
+	list-style-type: disc;
+}
+
+#about .profile-txt .profile-link a {
+	text-decoration: underline;
+}
+
+#about .profile-txt .profile-link a:hover {
+	text-decoration: none;
+}
+
 #about .profile-image {
 	float: right;
 	width: 340px;
