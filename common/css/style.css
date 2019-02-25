@@ -306,6 +306,17 @@ h2 {
 	border: 1px solid #ccc;
 }
 
+.profile-skill-tool {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.profile-skills,
+.profile-tools {
+	flex-basis: 50%;
+}
+
 
 /*
  Portfolio
@@ -535,6 +546,13 @@ h2 {
 
 	/* #about */
 	#about {background-image: url(../images/bg_about.jpg);}
+
+	.profile-skill-tool {display: block;}
+	
+	.profile-skills,
+	.profile-tools {
+		width: 100%;
+	}
 
 	/* #portfolio */
 	#portfolio {background-image: url(../images/bg_portfolio.jpg);}
